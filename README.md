@@ -2,11 +2,7 @@
 
 Step1:
 
-sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    software-properties-common
+sudo apt-get install apt-transport-https ca-certificates   curl  software-properties-common
     
     
 Step2:
@@ -21,10 +17,7 @@ Step3:
 Add repository:
 
 
-sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
-   stable"
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu  $(lsb_release -cs)  stable"
    
  
 Step4:
